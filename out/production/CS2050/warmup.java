@@ -15,10 +15,20 @@ public class warmup {
         System.out.println(a[i]);
     }
 
-}
+
 //Perdicted: 3,7,2,9
 //Output: 3,7,2,9
-//Why: Code goes through the array and prints each value
+//Why: Code goes through the array and prints each value but is asking for an addtional index 4 that doesn't exist. 
+
+String s1 = "cs2050";
+String s2 = new String ("cs2050");
+System.out.println(s1 == s2);
+System.out.println(s1.equals(s2));
+
+
+    }
 }
+
+
 
 
