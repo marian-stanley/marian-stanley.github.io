@@ -20,10 +20,15 @@ public class warmup {
 //Output: 3,7,2,9
 //Why: Code goes through the array and prints each value but is asking for an addtional index 4 that doesn't exist. 
 
-String s1 = "cs2050";
-String s2 = new String ("cs2050");
-System.out.println(s1 == s2);
-System.out.println(s1.equals(s2));
+    String s1 = "cs2050";
+    String s2 = new String ("cs2050");
+    System.out.println(s1 == s2);
+    System.out.println(s1.equals(s2));
+    System.out.println(s1);
+
+//Predicted: false, true
+//Output: nothing
+//Why: s1 is a direct assignment and s2 is a new object, but im actually not sure why it's not printing
 
 
     }

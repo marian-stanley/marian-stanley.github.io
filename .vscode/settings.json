@@ -1,9 +1,8 @@
 {
     "java.project.sourcePaths": [
-        "out/production/CS2050"
+        "out/production/CS2050",
+        ".idea"
     ],
     "java.project.outputPath": "bin",
-    "java.project.referencedLibraries": [
-        "lib/**/*.jar"
-    ]
+    "java.project.referencedLibraries": []
 }
